@@ -1,0 +1,22 @@
+<!--
+var appver = parseFloat(navigator.appVersion);
+var res = screen.width + "x" + screen.height;
+var pos = navigator.appVersion.indexOf('MSIE');
+if(pos != -1) {
+  appver = parseFloat(navigator.appVersion.substring(pos+5, navigator.appVersion.indexOf(';', pos)))
+};
+pos = navigator.userAgent.indexOf('Netscape6');
+if(pos != -1) {
+  appver = parseFloat(navigator.userAgent.substring(pos + 10));
+};
+var browser = navigator.appName + ' ' + appver;
+document.write('<a href="http://www.thebusinessplanstore.com/cgi-bin//viewstats.cgi?id=gkc203"><img src="http://www.thebusinessplanstore.com/cgi-bin//stats.cgi?id=gkc203&loc=');
+document.write(escape(document.location));
+document.write('&ref=');
+document.write(escape(document.referrer));
+document.write('&res=');
+document.write(res);
+document.write('&browser=');
+document.write(escape(browser));
+document.write('" border=0></a>');
+// -->

@@ -1,0 +1,27 @@
+A:link {
+	COLOR: blue
+}
+A:visited {
+	COLOR: #990099
+}
+A:hover {
+	COLOR: black
+}
+A:active {
+	COLOR: #ff00ff
+}
+.noul {
+	FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.noula {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; FONT-FAMILY: Arial, Verdana, sans-serif, Helvetica; TEXT-DECORATION: none
+}
+H1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 18px; COLOR: navy; FONT-STYLE: normal; FONT-FAMILY: "Comic Sans MS","Trebuchet MS", Arial
+}
+.roll {
+	FONT-SIZE: 11px; FONT-FAMILY: Arial, sans-serif, Helvetica; TEXT-DECORATION: none
+}
+BODY {
+	FONT-SIZE: 10px; FONT-FAMILY: Arial
+}
